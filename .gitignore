@@ -84,3 +84,5 @@ buck-out/
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+/android/app/.cxx
