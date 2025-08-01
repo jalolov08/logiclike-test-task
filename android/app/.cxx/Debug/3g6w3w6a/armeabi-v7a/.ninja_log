@@ -1,0 +1,14 @@
+# ninja log v5
+1	5434	1754050651547812043	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/RNVectorIconsSpec-generated.cpp.o	3a25e118199b98e0
+1	5372	1754050651507714463	CMakeFiles/appmodules.dir/OnLoad.cpp.o	acd3a710cef39003
+1	5167	1754050651289205304	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ComponentDescriptors.cpp.o	b553cf119f6c535e
+2	5440	1754050651526915313	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/RNVectorIconsSpecJSI-generated.cpp.o	c4854dd04a5b3972
+3	5041	1754050651183812694	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ShadowNodes.cpp.o	421075fe070d5772
+0	5340	1754050651463732039	CMakeFiles/appmodules.dir/Users/sarvar/Desktop/logiclike-test-task/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	ed783f02510da6f1
+2	4737	1754050650846513216	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/EventEmitters.cpp.o	d70e9fd3e590156d
+3	4613	1754050650756616111	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/States.cpp.o	7ead65581d79d0f8
+6056	6822	1754050652977433570	/Users/sarvar/Desktop/logiclike-test-task/android/app/build/intermediates/cxx/Debug/3g6w3w6a/obj/armeabi-v7a/libappmodules.so	264713afeeac037d
+2	6056	1754050652213980472	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/Props.cpp.o	19949b7b462cc943
+0	71	0	/Users/sarvar/Desktop/logiclike-test-task/android/app/.cxx/Debug/3g6w3w6a/armeabi-v7a/CMakeFiles/cmake.verify_globs	d37767932af5e154
+0	10	0	/Users/sarvar/Desktop/logiclike-test-task/android/app/.cxx/Debug/3g6w3w6a/armeabi-v7a/CMakeFiles/cmake.verify_globs	d37767932af5e154
+2	17	0	/Users/sarvar/Desktop/logiclike-test-task/android/app/.cxx/Debug/3g6w3w6a/armeabi-v7a/CMakeFiles/cmake.verify_globs	d37767932af5e154

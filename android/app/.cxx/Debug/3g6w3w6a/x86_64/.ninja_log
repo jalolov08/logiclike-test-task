@@ -1,0 +1,14 @@
+# ninja log v5
+6433	6915	1754050672221385664	/Users/sarvar/Desktop/logiclike-test-task/android/app/build/intermediates/cxx/Debug/3g6w3w6a/obj/x86_64/libappmodules.so	7f86cf7396cee3aa
+0	6432	1754050671716467013	CMakeFiles/appmodules.dir/OnLoad.cpp.o	aaffca741567a3a9
+1	6157	1754050671413437139	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/RNVectorIconsSpec-generated.cpp.o	ffcb112bbe048cbe
+2	6032	1754050671343182803	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ComponentDescriptors.cpp.o	93e56862d7634658
+4	5956	1754050671269676997	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/Props.cpp.o	e5b88b14d82b44d0
+7	5750	1754050671052521799	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/RNVectorIconsSpecJSI-generated.cpp.o	62669aefe8096a2f
+9	5545	1754050670864032396	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ShadowNodes.cpp.o	6dfa85bbe14532d9
+0	6208	1754050671520788880	CMakeFiles/appmodules.dir/Users/sarvar/Desktop/logiclike-test-task/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	f49deba096fb4cbb
+2	4708	1754050670022512729	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/EventEmitters.cpp.o	832e0f55b4192303
+11	4054	1754050669370138050	RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/States.cpp.o	3f452a70ac7d334a
+1	8	0	/Users/sarvar/Desktop/logiclike-test-task/android/app/.cxx/Debug/3g6w3w6a/x86_64/CMakeFiles/cmake.verify_globs	ed1f8a696856a661
+0	16	0	/Users/sarvar/Desktop/logiclike-test-task/android/app/.cxx/Debug/3g6w3w6a/x86_64/CMakeFiles/cmake.verify_globs	ed1f8a696856a661
+1	13	0	/Users/sarvar/Desktop/logiclike-test-task/android/app/.cxx/Debug/3g6w3w6a/x86_64/CMakeFiles/cmake.verify_globs	ed1f8a696856a661

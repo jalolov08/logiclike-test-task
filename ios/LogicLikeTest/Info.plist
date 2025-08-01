@@ -64,9 +64,6 @@
 			<string>Nunito-Regular.ttf</string>
 			<string>Nunito-SemiBold.ttf</string>
 			<string>Nunito-SemiBoldItalic.ttf</string>
-		</array>
-		<key>UIAppFonts</key>
-		<array>
 			<string>AntDesign.ttf</string>
 			<string>Entypo.ttf</string>
 			<string>EvilIcons.ttf</string>

@@ -1,37 +1,8 @@
 import React from 'react';
-import {Text, TextProps, StyleSheet} from 'react-native';
+import {Text, StyleSheet} from 'react-native';
 import {getFontFamily} from '../../utils/fonts';
 import {COLORS} from '../../constants/colors';
-
-export type FontWeight =
-  | 'extraLight'
-  | 'light'
-  | 'regular'
-  | 'medium'
-  | 'semiBold'
-  | 'bold'
-  | 'extraBold'
-  | 'black';
-
-export type FontStyle = 'normal' | 'italic';
-
-export interface TypographyProps extends TextProps {
-  variant?:
-    | 'h1'
-    | 'h2'
-    | 'h3'
-    | 'h4'
-    | 'h5'
-    | 'h6'
-    | 'body'
-    | 'caption'
-    | 'button';
-  weight?: FontWeight;
-  fontStyle?: FontStyle;
-  color?: string;
-  align?: 'auto' | 'left' | 'right' | 'center' | 'justify';
-  children: React.ReactNode;
-}
+import {TypographyProps} from '../../types/';
 
 const getVariantStyles = (variant: TypographyProps['variant']) => {
   const variantMap = {
@@ -41,15 +12,15 @@ const getVariantStyles = (variant: TypographyProps['variant']) => {
     h4: {fontSize: 20, lineHeight: 28},
     h5: {fontSize: 18, lineHeight: 24},
     h6: {fontSize: 16, lineHeight: 22},
-    body: {fontSize: 16, lineHeight: 24},
-    caption: {fontSize: 14, lineHeight: 20},
-    button: {fontSize: 16, lineHeight: 24},
+    body: {fontSize: 14, lineHeight: 24},
+    caption: {fontSize: 12, lineHeight: 16},
+    button: {fontSize: 16, lineHeight: 22},
   };
 
   return variantMap[variant || 'body'];
 };
 
-export const Typography: React.FC<TypographyProps> = ({
+const Typography: React.FC<TypographyProps> = ({
   variant = 'body',
   weight = 'regular',
   fontStyle = 'normal',

@@ -11,22 +11,8 @@ import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 import Octicons from 'react-native-vector-icons/Octicons';
 import Foundation from 'react-native-vector-icons/Foundation';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
-import {ColorValue, StyleProp, ViewStyle} from 'react-native';
 import {COLORS} from '../../constants/colors';
-
-export type IconType =
-  | typeof AntDesign
-  | typeof FontAwesome
-  | typeof FontAwesome5
-  | typeof Ionicons
-  | typeof Feather
-  | typeof MaterialCommunityIcons
-  | typeof Entypo
-  | typeof MaterialIcons
-  | typeof SimpleLineIcons
-  | typeof Octicons
-  | typeof Foundation
-  | typeof EvilIcons;
+import {IconProps} from '../../types/';
 
 export const Icons = {
   MaterialCommunityIcons,
@@ -42,14 +28,6 @@ export const Icons = {
   Foundation,
   EvilIcons,
 };
-
-interface IconProps {
-  type: IconType;
-  name: string;
-  color?: ColorValue;
-  size?: number;
-  style?: StyleProp<ViewStyle>;
-}
 
 const Icon: React.FC<IconProps> = ({
   type,
