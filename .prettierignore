@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+android/app/build/
+ios/build/
+ios/Pods/
+
+# Generated files
+*.log
+*.lock
+package-lock.json
+yarn.lock
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# React Native specific
+android/gradle/
+android/.gradle/
+android/local.properties
+android/app/release/
+android/app/debug/
+
+# iOS specific
+ios/Pods/
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Metro
+.metro-health-check*
+
+# Temporary files
+*.tmp
+*.temp 
